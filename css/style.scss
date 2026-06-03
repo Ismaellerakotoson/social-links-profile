@@ -12,14 +12,14 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-size: 0.875rem;
+  font-size: calc(0.875rem) ;
   font-family: "Inter", sans-serif;
 }
 p {
-  margin-block-start: 0rem;
+  margin-block-start:calc(0rem);
 }
 h1 {
-  margin-block-end: 0.5rem;
+  margin-block-end: calc(0.5rem);
 }
 main {
   background-color: var(--Grey800);
@@ -29,10 +29,10 @@ main {
   text-align: center;
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
+  padding: calc(1.5rem);
 }
 .avatar {
-  width: 5rem;
+  width: calc(5rem);
   height: auto;
   border-radius: 50%;
   margin-block-end: calc(1rem);
@@ -45,8 +45,8 @@ main {
 .links {
   display: flex;
   flex-direction: column;
-  gap: 0.9rem;
-  padding: 0rem;
+  gap: calc(0.9rem);
+  padding: calc(0rem);
 }
 ul {
   list-style: none;
